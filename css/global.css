@@ -53,27 +53,53 @@ header {
     background: none;
     border: none;
     color: white;
-    font-size: 24px;
+    font-size: 28px;
     cursor: pointer;
     position: absolute;
     right: 20px;
 }
 
-/* Mobile Menu - Hidden by Default */
+/* Mobile Menu */
 .mobile-menu {
     display: none;
-    position: absolute;
-    top: 60px;
-    right: 20px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 250px;
+    height: 100%;
     background-color: #b81313;
-    width: 200px;
     padding: 10px;
     text-align: center;
+    z-index: 1000;
 }
 
+.mobile-menu.active {
+    display: block;
+}
+
+/* Close Button */
+.close-menu {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: white;
+    color: #333;
+    font-size: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Mobile Menu Links */
 .mobile-menu ul {
     list-style: none;
-    padding: 0;
+    padding: 50px 0 0;
     margin: 0;
 }
 
@@ -84,10 +110,10 @@ header {
 .mobile-menu a {
     color: white;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 1.2rem;
 }
 
-/* Responsive Designs */
+/* Responsive Styling */
 @media (max-width: 768px) {
     .nav-left, .nav-right {
         display: none;
