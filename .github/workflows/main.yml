@@ -18,13 +18,12 @@ jobs:
       with:
         ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
 
-    - name: Deploy to Hostinger
-      env:
-        HOSTINGER_HOST: ${{ secrets.HOSTINGER_HOST }}
-        HOSTINGER_USER: ${{ secrets.HOSTINGER_USER }}
-        HOSTINGER_PORT: ${{ secrets.HOSTINGER_PORT }}
+    - name: Force Sync with GitHub
       run: |
-        ssh -o StrictHostKeyChecking=no -p $HOSTINGER_PORT $HOSTINGER_USER@$HOSTINGER_HOST "
+        ssh -o StrictHostKeyChecking=no -p ${{ secrets.HOSTINGER_PORT }} ${{ secrets.HOSTINGER_USER }}@${{ secrets.HOSTINGER_HOST }} "
         cd /home/u522518288/domains/katieskouture.com/public_html &&
+        git fetch origin &&
+        git reset --hard origin/master &&
+        git clean -fd &&
         git pull origin master &&
         exit"
