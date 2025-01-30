@@ -5,19 +5,32 @@ body {
     background-color: #b86cd3;
 }
 
+/* Locally hosted fonts */
+@font-face {
+    font-family: 'Great Vibes';
+    src: url('/assets/fonts/GreatVibes-Regular.woff2') format('woff2'),
+         url('/assets/fonts/GreatVibes-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Text Styling */
 h1 {
     font-size: 3rem;
     text-align: center;
     color: #f3f9d0;
 }
 
+/* Header Styling */
 header {
     padding: 10px;
 }
 
 .navbar {
+    font-family: 'Great Vibes';
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     max-width: 1400px;
     margin: 0 auto;
@@ -27,24 +40,26 @@ header {
 
 .nav-left, .nav-right {
     display: flex;
+    flex: 1;
     list-style: none;
+    justify-content: center;
     padding: 0;
     margin: 0;
 }
 
 .nav-left li, .nav-right li {
-    margin: 0 10px;
+    margin: 0 50px;
 }
 
 .nav-left a, .nav-right a {
-    color: white;
+    color: #FFFFFF;
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
 }
 
 .logo {
+    flex: 0;
     text-align: center;
-    flex-grow: 1;
 }
 
 /* Hamburger Button */
