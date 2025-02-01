@@ -19,7 +19,20 @@ body {
 h1 {
     font-size: 3rem;
     text-align: center;
-    color: #f3f9d0;
+    color: #c9a23d;
+}
+
+h2 {
+    font-size: 2.8rem;
+    text-align: center;
+    color: #c9a23d;
+    margin: 0;
+}
+
+h3 {
+    font-size: 2.5rem;
+    text-align: center;
+    color: #ffffff;
 }
 
 /* Header Styling */
@@ -63,9 +76,14 @@ header {
 }
 
 .logo {
-    flex: 0;
-    text-align: center;
+    display: flex;
+    align-items: center;
 }
+
+.logo img {
+    width: 210px;
+    height: auto;
+  }
 
 /* Hamburger Button */
 .hamburger {

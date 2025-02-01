@@ -1,0 +1,40 @@
+main {
+    background-image: url(/assets/images/main-image.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+    min-height: 80vh;
+}
+
+.main-overlay {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 67%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    max-width: 1450px;
+    height: 650px;
+    background-color: transparent;
+    border: 4px solid #c9a23d;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    z-index: 10;
+  }
+
+  .cta-button {
+    font-size: 24px;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+  }
+
+  .quote-section {
+    padding: 30px;
+  }
