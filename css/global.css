@@ -15,6 +15,15 @@ body {
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'Waterfall';
+    src: url('/assets/fonts/Waterfall-Regular.woff2') format('woff2'),
+         url('/assets/fonts/Waterfall-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 /* Text Styling */
 h1 {
     font-size: 3rem;
