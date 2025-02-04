@@ -3,7 +3,7 @@ main {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.6);
     background-blend-mode: multiply;
     min-height: 80vh;
 }
@@ -66,18 +66,19 @@ main {
     height: auto;
     display: block;
     border-radius: 0px;
+    opacity: 0.6;
 }
 
 .overlay-text {
     position: absolute;
-    top: 80%;
+    top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: rgba(0, 0, 0, 0.8);
+    border: 2px solid #c9a23d;
     color: #c9a23d;
-    padding: 15px 20px;
+    padding: 5px 10px;
     font-size: 20px;
     font-weight: bold;
     text-align: center;
-    width: 40%;
+    width: 30%;
 }
