@@ -33,6 +33,7 @@ main {
     padding: 20px;
     border-radius: 8px;
     margin-top: 20px;
+    cursor: pointer;
 }
 
 .quote-section {
@@ -67,6 +68,10 @@ main {
     display: block;
     border-radius: 0px;
     opacity: 0.6;
+}
+
+.image-container img:hover {
+    opacity: 1;
 }
 
 .overlay-text {
