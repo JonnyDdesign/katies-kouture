@@ -15,11 +15,11 @@ main {
     top: 72%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 90%;
-    max-width: 1450px;
+    width: 100%;
+    max-width: 1400px;
     height: 550px;
     background-color: transparent;
-    border: 4px solid #c9a23d;
+    border: 2px solid #c9a23d;
     padding: 0;
     display: flex;
     align-items: center;
@@ -28,7 +28,14 @@ main {
     z-index: 10;
 }
 
+.main-overlay h1 {
+    position: absolute;
+    top: 50%;
+}
+
 .cta-button {
+    top: 70%;
+    position: absolute;
     font-size: 24px;
     padding: 20px;
     border-radius: 8px;
@@ -76,7 +83,7 @@ main {
 
 .overlay-text {
     position: absolute;
-    top: 80%;
+    top: 85%;
     left: 50%;
     transform: translate(-50%, -50%);
     border: 2px solid #c9a23d;
@@ -85,7 +92,7 @@ main {
     font-size: 20px;
     font-weight: bold;
     text-align: center;
-    width: 40%;
+    width: 35%;
 }
 
 .overlay-text:hover {
