@@ -76,7 +76,7 @@ main {
 
 .overlay-text {
     position: absolute;
-    top: 70%;
+    top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
     border: 2px solid #c9a23d;
@@ -85,5 +85,11 @@ main {
     font-size: 20px;
     font-weight: bold;
     text-align: center;
-    width: 30%;
+    width: 40%;
+}
+
+.overlay-text:hover {
+    background-color: #000000;
+    color: #ffffff;
+    border: 2px solid #ffffff;
 }
