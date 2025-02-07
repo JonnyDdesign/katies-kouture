@@ -6,21 +6,22 @@ main {
     background-color: rgba(0, 0, 0, 0.6);
     background-blend-mode: multiply;
     min-height: 80vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .main-overlay {
-    display: flex;
     flex-direction: column;
     position: absolute;
-    top: 72%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 100%;
-    max-width: 1400px;
-    height: 550px;
+    width: 95%;
+    height: 95%;
     background-color: transparent;
     border: 2px solid #c9a23d;
-    padding: 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -29,18 +30,27 @@ main {
 }
 
 .main-overlay h1 {
-    position: absolute;
-    top: 50%;
+    margin-top: 100px;
 }
 
 .cta-button {
-    top: 70%;
-    position: absolute;
-    font-size: 24px;
-    padding: 20px;
+    padding: 10px 15px;
+    font-size: 1.5vw;
+    font-weight: bold;
+    color: #000000;
+    text-decoration: none;
+    background: #c9a23d;
     border-radius: 8px;
-    margin-top: 20px;
-    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    margin-top: 30px;
+}
+
+.cta-button:hover {
+    transform: scale(1.05);
+}
+
+.cta-button:active {
+    transform: scale(0.98);
 }
 
 .quote-section {
@@ -61,7 +71,6 @@ main {
     gap: 20px;
     padding: 20px;
     margin: 0;
-    max-width: 1500px;
 }
 
 .image-container {
