@@ -1,6 +1,4 @@
-* {
-    border: 1px solid red;
-}
+
 
 body {
     font-family: Arial, sans-serif;
@@ -178,8 +176,13 @@ header {
     text-align: center;
 }
 
+.footer-column img {
+    width: 175px;
+}
+
 .footer-column p {
     color: #c9a23d;
+    text-align: left;
 }
 
 .footer-column h3 {
@@ -196,8 +199,12 @@ header {
 }
 
 .footer-column ul li a {
-    color: pink;
+    color: #c9a23d;
     text-decoration: none;
+}
+
+.footer-column ul li a:hover {
+    color: #ffffff;
 }
 
 .social-icons a {
@@ -214,7 +221,6 @@ header {
 .footer-bottom {
     text-align: center;
     padding: 5px 0;
-    background-color: white;
     color: #c9a23d;
     font-size: 1rem;
 }
@@ -225,6 +231,7 @@ header {
 }
 
 .footer-bottom a:hover {
+    color: #ffffff;
     text-decoration: underline;
 }
 
