@@ -1,10 +1,26 @@
-
-
-body {
-    font-family: Arial, sans-serif;
+* {
     margin: 0;
     padding: 0;
-    background-color: #000000;
+    box-sizing: border-box;
+}
+
+/* Root variables */
+:root {
+    --primary-color: #1F1A38;
+    --primary-color-light: #4B475F;
+    --secondary-color: #7B506F;
+    --accent-color-amaranth-pink: #DD99BB;
+    --accent-color-champagne-pink: #EAD7D1;
+    --accent-color-timberwolf: #DBCDC6;
+    --font-family: 'Arial', sans-serif;
+    --transition-speed: 0.3s;
+}
+
+body {
+    font-family: var(--font-family);
+    background-color: var(--primary-color);
+    line-height: 1.4;
+
 }
 
 /* Locally hosted fonts */
@@ -76,14 +92,14 @@ header {
 }
 
 .nav-left a, .nav-right a {
-    color: #c9a23d;
+    color: var(--accent-color-champagne-pink);
     text-decoration: none;
     font-size: 2rem;
     transition: color 0.3s ease;
 }
 
 .nav-left a:hover, .nav-right a:hover {
-    color: #fdcff3;
+    color: #ffffff;
 }
 
 .logo {
@@ -101,7 +117,7 @@ header {
     display: none;
     background: none;
     border: none;
-    color: white;
+    color: var(--accent-color-champagne-pink);
     font-size: 28px;
     cursor: pointer;
     position: absolute;
@@ -116,7 +132,7 @@ header {
     right: 0;
     width: 250px;
     height: 100%;
-    background-color: #c9a23d;
+    background-color: var(--secondary-color);
     padding: 10px;
     text-align: center;
     z-index: 1000;
@@ -134,8 +150,8 @@ header {
     width: 30px;
     height: 30px;
     border: none;
-    background-color: white;
-    color: #333;
+    background-color: #FFFFFF;
+    color: var(--primary-color);
     font-size: 20px;
     border-radius: 50%;
     cursor: pointer;
@@ -157,9 +173,13 @@ header {
 }
 
 .mobile-menu a {
-    color: white;
+    color: #FFFFFF;
     text-decoration: none;
     font-size: 1.2rem;
+}
+
+.mobile-menu a:hover {
+    color: #000000;
 }
 
 /* Footer Styling */
@@ -181,7 +201,7 @@ header {
 }
 
 .footer-column p {
-    color: #c9a23d;
+    color: #FFFFFF;
     text-align: left;
 }
 
@@ -199,12 +219,12 @@ header {
 }
 
 .footer-column ul li a {
-    color: #c9a23d;
+    color: #FFFFFF;
     text-decoration: none;
 }
 
 .footer-column ul li a:hover {
-    color: #ffffff;
+    color: var(--accent-color-amaranth-pink);
 }
 
 .social-links {
@@ -235,17 +255,17 @@ header {
 .footer-bottom {
     text-align: center;
     padding: 5px 0;
-    color: #c9a23d;
+    color: #FFFFFF;
     font-size: 1rem;
 }
 
 .footer-bottom a {
-    color: #c9a23d;
+    color: #FFFFFF;
     text-decoration: none;
 }
 
 .footer-bottom a:hover {
-    color: #ffffff;
+    color: var(--accent-color-amaranth-pink);
     text-decoration: underline;
 }
 
