@@ -207,15 +207,29 @@ header {
     color: #ffffff;
 }
 
-.social-icons a {
-    color: #fff;
-    font-size: 20px;
-    margin-right: 10px;
-    transition: 0.3s;
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 30px;
 }
   
-.social-icons a:hover {
-    color: #ffcc00;
+.social-icon {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+    transition: backgroun-image 0.3s ease;
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.facebook-icon {
+    background-image: url(/assets/images/facebook-logo.svg);
+}
+
+.facebook-icon:hover {
+    background-image: url(/assets/images/facebook-logo-color.svg);
+    transform: scale(1.2);
 }
 
 .footer-bottom {
