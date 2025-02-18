@@ -126,3 +126,29 @@ main {
         font-size: 3rem;
     }
 }
+
+@media (max-width: 425px) {
+    .main-overlay h1 {
+        font-size: 2.6rem;
+        letter-spacing: 3px;
+        margin-top: 40px;
+    }
+
+    .cta-button {
+        font-size: 2.5vw;
+        padding: 5px 10px;
+    }
+
+    .quote-section {
+        padding: 30px 50px;
+    }
+
+    .quote-section h2 {
+        font-size: 2rem;
+    }
+
+    .blog-links {
+        padding: 0;
+        margin: 0;
+    }
+}

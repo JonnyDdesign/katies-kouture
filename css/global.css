@@ -307,7 +307,36 @@ header {
 
     .footer-container {
         grid-template-columns: 1fr;
-        text-align: center;
         margin: 40px;
+    }
+}
+
+@media (max-width: 425px) {
+    .logo img {
+        width: 100px;
+    }
+
+    .footer-container {
+        margin: 20px;
+    }
+
+    .footer-column img {
+        width: 125px;
+    }
+
+    .footer-column h3 {
+        font-size: 1.7rem;
+        margin-bottom: 10px;
+    }
+
+    .social-icon {
+        width: 30px;
+        height: 30px;
+    }
+
+    .footer-bottom {
+        padding: 20px 0 5px 0;
+        color: #FFFFFF;
+        font-size: 0.8rem;
     }
 }
