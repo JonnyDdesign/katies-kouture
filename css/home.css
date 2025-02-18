@@ -115,3 +115,14 @@ main {
     color: #ffffff;
     border: 2px solid #ffffff;
 }
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .quote-section {
+        padding: 50px 100px;
+    }
+
+    .quote-section h2 {
+        font-size: 3rem;
+    }
+}

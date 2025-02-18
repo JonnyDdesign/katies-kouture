@@ -109,7 +109,7 @@ header {
 .logo img {
     width: 200px;
     height: auto;
-  }
+}
 
 /* Hamburger Button */
 .hamburger {
@@ -301,8 +301,13 @@ header {
         display: block;
     }
 
+    .logo img {
+        width: 150px;
+    }
+
     .footer-container {
         grid-template-columns: 1fr;
         text-align: center;
+        margin: 40px;
     }
 }
