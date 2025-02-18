@@ -252,6 +252,24 @@ header {
     transform: scale(1.2);
 }
 
+.twitter-icon {
+    background-image: url(/assets/images/x-logo.svg);
+}
+
+.twitter-icon:hover {
+    background-image: url(/assets/images/x-logo-color.svg);
+    transform: scale(1.2);
+}
+
+.instagram-icon {
+    background-image: url(/assets/images/instagram-logo.svg);
+}
+
+.instagram-icon:hover {
+    background-image: url(/assets/images/instagram-logo-color.svg);
+    transform: scale(1.2);
+}
+
 .footer-bottom {
     text-align: center;
     padding: 40px 0 5px 0;

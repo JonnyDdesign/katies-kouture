@@ -31,6 +31,7 @@ main {
 
 .main-overlay h1 {
     font-size: 4rem;
+    letter-spacing: 4px;
     color: var(--accent-color-amaranth-pink);
     margin-top: 80px;
 }
@@ -39,15 +40,18 @@ main {
     padding: 10px 15px;
     font-size: 1.5vw;
     font-weight: bold;
-    color: #000000;
+    color: var(--accent-color-amaranth-pink);
     text-decoration: none;
-    background-color: var(--accent-color-champagne-pink);
+    background-color: transparent;
+    border: 1px dashed var(--accent-color-amaranth-pink);
     border-radius: 8px;
     transition: all 0.3s ease-in-out;
     margin-top: 30px;
 }
 
 .cta-button:hover {
+    background-color: white;
+    color: black;
     transform: scale(1.05);
 }
 
