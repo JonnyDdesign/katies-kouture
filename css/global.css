@@ -41,6 +41,15 @@ body {
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'Delius';
+    src: url('/assets/fonts/Delius-Regular.woff2') format('woff2'),
+         url('/assets/fonts/Delius-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 /* Text Styling */
 h1 {
     font-family: 'Great Vibes', serif;
@@ -51,10 +60,10 @@ h2 {
     font-family: 'Waterfall', serif;
     font-size: 3rem;
     text-align: center;
-    color: #c9a23d;
 }
 
 h3 {
+    font-family: 'Delius', serif;
     font-size: 2rem;
     text-align: center;
     color: #ffffff;
@@ -168,6 +177,7 @@ header {
 }
 
 .mobile-menu li {
+    font-family: 'Delius', serif;
     padding: 10px 0;
 }
 
@@ -200,6 +210,7 @@ header {
 }
 
 .footer-column p {
+    font-family: 'Times New Roman', Times, serif;
     color: #FFFFFF;
     text-align: left;
 }
@@ -215,6 +226,7 @@ header {
 }
 
 .footer-column ul li {
+    font-family: 'Times New Roman', Times, serif;
     margin-bottom: 8px;
 }
 
@@ -275,6 +287,10 @@ header {
     padding: 40px 0 5px 0;
     color: #FFFFFF;
     font-size: 1rem;
+}
+
+.footer-bottom p {
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .footer-bottom a {
