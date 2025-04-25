@@ -1,16 +1,23 @@
-.main-date {
+.summer-2025-main p {
     text-align: center;
     color: #FFFFFF;
     padding: 20px;
 }
 
-.summer-2025-header {
+.summer-2025-main h1 {
+    font-family: 'Cinzel Decorative', serif;
+    font-size: 3rem;
     text-align: center;
     padding: 20px;
 }
 
-.summer-2025-main-image {
+.summer-2025-main img {
     display: block;
     margin: auto;
     width: 70%;
+}
+
+.blog-section-one p {
+    margin: 10px 200px;
+    line-height: 1.8;
 }

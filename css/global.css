@@ -50,9 +50,19 @@ body {
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'Cinzel Decorative';
+    src: url('/assets/fonts/CinzelDecorative-Regular.woff2') format('woff2'),
+         url('/assets/fonts/CinzelDecorative-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 /* Text Styling */
 p {
     font-size: 1rem;
+    color: #FFFFFF;
 }
 
 h1 {
