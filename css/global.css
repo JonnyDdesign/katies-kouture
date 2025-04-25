@@ -51,22 +51,28 @@ body {
 }
 
 /* Text Styling */
+p {
+    font-size: 1rem;
+}
+
 h1 {
     font-family: 'Great Vibes', serif;
     font-size: 4rem;
+    color: #FFFFFF;
 }
 
 h2 {
     font-family: 'Waterfall', serif;
     font-size: 3rem;
     text-align: center;
+    color: #FFFFFF;
 }
 
 h3 {
     font-family: 'Delius', serif;
     font-size: 2rem;
     text-align: center;
-    color: #ffffff;
+    color: #FFFFFF;
 }
 
 /* Header Styling */
@@ -107,7 +113,7 @@ header {
 }
 
 .nav-left a:hover, .nav-right a:hover {
-    color: #ffffff;
+    color: #FFFFFF;
 }
 
 .logo {
@@ -189,6 +195,52 @@ header {
 
 .mobile-menu a:hover {
     color: #000000;
+}
+
+/* Blog Links */
+.blog-links {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    margin: 0;
+}
+
+.image-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 0px;
+    opacity: 0.6;
+}
+
+.image-container img:hover {
+    opacity: 1;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid var(--accent-color-champagne-pink);
+    color: var(--accent-color-champagne-pink);
+    padding: 5px 10px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    width: 35%;
+}
+
+.overlay-text:hover {
+    background-color: #000000;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
 }
 
 /* Footer Styling */
@@ -330,6 +382,11 @@ header {
 @media (max-width: 425px) {
     .logo img {
         width: 100px;
+    }
+
+    .blog-links {
+        padding: 0;
+        margin: 0;
     }
 
     .footer-container {
