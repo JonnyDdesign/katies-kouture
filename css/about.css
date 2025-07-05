@@ -1,6 +1,6 @@
 .about-page {
     padding: 4rem 2rem;
-    background-color: #fff;
+    background-color: var(--accent-color-champagne-pink);
     font-family: 'Helvetica Neue', sans-serif;
 }
   
@@ -12,11 +12,6 @@
     margin: 0 auto;
     gap: 3rem;
     flex-wrap: wrap;
-}
-  
-.about-image {
-    flex: 1 1 300px;
-    text-align: center;
 }
   
 .about-image img {
@@ -33,7 +28,7 @@
 }
   
 .about-text {
-    flex: 2 1 400px;
+    flex: 1;
 }
   
 .about-text h1 {

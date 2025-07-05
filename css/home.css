@@ -38,7 +38,7 @@ main {
 
 .cta-button {
     padding: 10px 15px;
-    font-size: 1.5vw;
+    font-size: 1.8rem;
     font-weight: bold;
     color: var(--accent-color-amaranth-pink);
     text-decoration: none;
@@ -90,7 +90,7 @@ main {
     }
 
     .cta-button {
-        font-size: 2.5vw;
+        font-size: 1.2rem;
         padding: 5px 10px;
     }
 
