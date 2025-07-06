@@ -1,12 +1,7 @@
 .fashion-blogs {
-    padding: 20px;
+    padding: 40px;
     background: #FFFFFF;
     text-align: center;
-}
-
-.container {
-    max-width: 1300px;
-    margin: 0 auto;
 }
 
 .blog-flex {
@@ -14,7 +9,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    gap: 3rem;
 }
   
 .blog-card {
