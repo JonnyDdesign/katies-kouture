@@ -373,6 +373,10 @@ header {
 }
 
 @media (max-width: 768px) {
+    .overlay {
+        opacity: 1 !important;
+    }
+
     .nav-left, .nav-right {
         display: none;
     }
