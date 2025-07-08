@@ -366,6 +366,12 @@ header {
 }
 
 /* Responsive Styling */
+@media (max-width: 1024px) {
+    .logo img {
+        width: 170px;
+    }
+}
+
 @media (max-width: 768px) {
     .nav-left, .nav-right {
         display: none;
@@ -373,6 +379,7 @@ header {
 
     .hamburger {
         display: block;
+        font-size: 40px;
     }
 
     .mobile-menu.active {
@@ -380,7 +387,7 @@ header {
     }
 
     .logo img {
-        width: 150px;
+        width: 130px;
     }
 
     .footer-container {
@@ -389,7 +396,11 @@ header {
     }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 435px) {
+    .hamburger {
+        font-size: 32px;
+    }
+
     .logo img {
         width: 100px;
     }
@@ -420,6 +431,6 @@ header {
     .footer-bottom {
         padding: 20px 0 5px 0;
         color: #FFFFFF;
-        font-size: 0.8rem;
+        font-size: 0.7rem;
     }
 }

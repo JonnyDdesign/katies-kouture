@@ -74,7 +74,7 @@ main {
 /* Responsive Styling */
 @media (max-width: 768px) {
     .quote-section {
-        padding: 50px 100px;
+        padding: 50px 70px;
     }
 
     .quote-section h2 {
@@ -82,7 +82,7 @@ main {
     }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 435px) {
     .main-overlay h1 {
         font-size: 2.6rem;
         letter-spacing: 3px;
