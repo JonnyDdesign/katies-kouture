@@ -366,6 +366,12 @@ header {
 }
 
 /* Responsive Styling */
+@media (hover: none) and (pointer: coarse) {
+    *:hover {
+      all: unset !important;
+    }
+}  
+
 @media (max-width: 1024px) {
     .logo img {
         width: 170px;
@@ -373,10 +379,6 @@ header {
 }
 
 @media (max-width: 768px) {
-    .overlay {
-        opacity: 1 !important;
-    }
-
     .nav-left, .nav-right {
         display: none;
     }
