@@ -366,12 +366,6 @@ header {
 }
 
 /* Responsive Styling */
-@media (hover: none) and (pointer: coarse) {
-    *:hover {
-      all: unset !important;
-    }
-}  
-
 @media (max-width: 1024px) {
     .logo img {
         width: 170px;
