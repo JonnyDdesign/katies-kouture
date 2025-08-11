@@ -1,0 +1,166 @@
+.brand-link {
+    color: var(--accent-color-amaranth-pink);
+}
+
+.jewelry-fall-2025-main p {
+    text-align: center;
+    color: #FFFFFF;
+    padding: 20px;
+}
+
+.jewelry-fall-2025-main h1 {
+    font-family: 'Cinzel Decorative', serif;
+    font-size: 3rem;
+    text-align: center;
+    padding: 20px;
+}
+
+.jewelry-fall-2025-main img {
+    display: block;
+    margin: auto;
+    width: 70%;
+    padding: 20px 0;
+}
+
+.blog-section-one h2 {
+    letter-spacing: 2px;
+    padding: 20px 0;
+}
+
+.blog-section-one p {
+    margin: 10px 200px;
+    line-height: 1.8;
+}
+
+.blog-section-one-images {
+    margin: auto;
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.blog-section-one-images img {
+    width: 30%;
+    padding: 20px;
+}
+
+.blog-section-two h2 {
+    letter-spacing: 2px;
+    padding: 20px 0;
+}
+
+.blog-section-two img {
+    display: block;
+    margin: auto;
+    width: 70%;
+    padding-top: 30px;
+}
+
+.blog-section-two p {
+    margin: 10px 200px;
+    line-height: 1.8;
+}
+
+.blog-section-three h2 {
+    letter-spacing: 2px;
+    padding: 20px 0;
+}
+
+.blog-section-three img {
+    display: block;
+    margin: auto;
+    width: 70%;
+    padding-top: 30px;
+}
+
+.blog-section-three p {
+    margin: 10px 200px;
+    line-height: 1.8;
+}
+
+@media (max-width: 768px) {
+    .jewelry-fall-2025-main h1 {
+        font-size: 2.5rem;
+        padding: 10px;
+    }
+
+    .jewelry-fall-2025-main img {
+        width: 80%;
+        padding: 10px 0;
+    }
+
+    .blog-section-one p {
+        margin: 10px 70px;
+        line-height: 1.6;
+    }
+
+    .blog-section-one-images {
+        width: 100%;
+    }
+
+    .blog-section-two p {
+        margin: 10px 70px;
+        line-height: 1.6;
+    }
+
+    .blog-section-two img {
+        width: 80%;
+        padding-top: 30px;
+    }
+
+    .blog-section-three p {
+        margin: 10px 70px;
+        line-height: 1.6;
+    }
+
+    .blog-section-three img {
+        width: 80%;
+        padding-top: 30px;
+    }
+}
+
+@media (max-width: 435px) {
+    .jewelry-fall-2025-main h1 {
+        font-size: 1.8rem;
+        padding: 10px;
+    }
+
+    .jewelry-fall-2025-main img {
+        width: 90%;
+        padding: 10px 0;
+    }
+
+    .blog-section-one h2 {
+        font-size: 2.6rem;
+    }
+
+    .blog-section-one p {
+        margin: 10px 30px;
+        line-height: 1.6;
+    }
+
+    .blog-section-one-images img {
+        width: 90%;
+        padding: 10px;
+    }
+
+    .blog-section-two h2 {
+        font-size: 2.6rem;
+    }
+
+    .blog-section-two p {
+        margin: 10px 30px;
+        line-height: 1.6;
+    }
+
+    .blog-section-three h2 {
+        font-size: 2.6rem;
+    }
+
+    .blog-section-three p {
+        margin: 10px 30px;
+        line-height: 1.6;
+    }
+}
