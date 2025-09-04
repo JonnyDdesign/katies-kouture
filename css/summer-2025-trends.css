@@ -15,10 +15,12 @@
     padding: 20px;
 }
 
-.summer-2025-main img {
+.summer-2025-img {
     display: block;
-    margin: auto;
+    margin: 0 auto;
+    max-width: 100%;
     width: 70%;
+    height: auto;
     padding: 20px 0;
 }
 
@@ -63,7 +65,7 @@
         padding: 10px;
     }
 
-    .summer-2025-main img {
+    .summer-2025-img {
         width: 80%;
         padding: 10px 0;
     }
@@ -94,8 +96,9 @@
         padding: 10px;
     }
 
-    .summer-2025-main img {
+    .summer-2025-img {
         width: 90%;
+        max-width: 100%;
         padding: 10px 0;
     }
 
