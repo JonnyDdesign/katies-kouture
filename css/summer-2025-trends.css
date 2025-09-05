@@ -36,18 +36,18 @@
 }
 
 .blog-section-one-images {
-    margin: auto;
-    width: 75%;
+    margin: 0 auto;
+    max-width: 1500px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    gap: 20px;
 }
 
 .blog-section-one-images img {
-    width: 30%;
-    padding: 10px;
-    box-sizing: border-box;
+    max-width: 100%;
+    height: auto;
 }
 
 .blog-section-two img {
