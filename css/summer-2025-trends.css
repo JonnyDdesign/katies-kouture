@@ -29,32 +29,40 @@
 
 .blog-section-one p,
 .blog-section-two p {
-    max-width: 800px;
+    font-size: 1.5rem;
+    max-width: 1200px;
     margin: 10px auto;
     padding: 0 20px;
     line-height: 1.8;
 }
 
 .blog-section-one-images {
-    margin: 0 auto;
-    max-width: 1500px;
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     gap: 20px;
+    margin: 50px auto;
+    max-width: 1500px;
+}
+
+.blog-section-one-images picture {
+    flex: 1 1 30%;
+    max-width: 100%;
+    height: auto;
 }
 
 .blog-section-one-images img {
-    max-width: 100%;
+    display: block;
+    width: 100%;
     height: auto;
 }
 
 .blog-section-two img {
     display: block;
-    margin: auto;
-    width: 70%;
-    padding-top: 30px;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    padding: 20px 0;
 }
 
 @media (max-width: 768px) {
