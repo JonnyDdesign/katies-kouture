@@ -111,7 +111,7 @@ header {
 }
 
 .nav-left li, .nav-right li {
-    margin: 0 50px;
+    margin: 0 2rem;
 }
 
 .nav-left a, .nav-right a {
@@ -367,7 +367,16 @@ header {
 /* Responsive Styling */
 @media (max-width: 1024px) {
     .logo img {
-        width: 170px;
+        width: 160px;
+    }
+
+    .nav-left li, .nav-right li {
+        margin: 0 1rem;
+    }
+
+    .nav-left a, .nav-right a {
+        font-size: 2rem;
+        letter-spacing: 2px;
     }
 }
 
