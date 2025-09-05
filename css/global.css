@@ -213,7 +213,6 @@ header {
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     gap: 20px;
     padding: 50px 20px;
-    margin: 0;
 }
 
 .image-container {
@@ -388,6 +387,10 @@ header {
 
     .logo img {
         width: 130px;
+    }
+
+    .blog-links {
+        padding: 50px 0;
     }
 
     .footer-container {

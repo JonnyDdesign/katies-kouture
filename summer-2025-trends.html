@@ -61,19 +61,14 @@
     <div class="summer-2025-main">
       <p>June 21, 2025</p>
       <h1>Turn Up the Heat: <br>The Luxe Looks of Summer 2025</h1>
-      <img 
-        src="assets/images/summer-2025-header-800.webp"
-        srcset="
-          assets/images/summer-2025-header-400.webp 400w,
-          assets/images/summer-2025-header-800.webp 800w,
-          assets/images/summer-2025-header-1200.webp 1200w
-        "
-        sizes="(max-width: 768px) 100vw, 
-               (max-width: 1200px) 800px, 
-               1200px"
-        alt="Model crouching in the desert wearing a floral print dress, sunglasses, and a sun hat"
-        class="summer-2025-img"
-      >
+      <picture>
+        <source srcset="assets/images/summer-2025-header-400.webp" media="(max-width: 435px)">
+        <source srcset="assets/images/summer-2025-header-800.webp" media="(max-width: 768px)">
+        <img src="assets/images/summer-2025-header-1200.webp" 
+            alt="Model crouching in the desert wearing a floral print dress, sunglasses, and a sun hat" 
+            class="summer-2025-img"
+            loading="eager" fetchpriority="high">
+      </picture>
     </div>
     <div class="blog-section-one">
       <h2>Statement Florals</h2>
